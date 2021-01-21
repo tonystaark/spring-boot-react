@@ -7,10 +7,7 @@
     <list default="true" id="523bec4d-40b1-41a7-be99-a30d02beb821" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/AppBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/AppBar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/ProtectedRoute.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/ProtectedRoute.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/redux/actions/signInAction.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/redux/actions/signInAction.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/containers/SignInPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/containers/SignInPage.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +100,7 @@
       <workItem from="1611110399905" duration="16929000" />
       <workItem from="1611135557323" duration="115000" />
       <workItem from="1611135720637" duration="595000" />
-      <workItem from="1611137830153" duration="42978000" />
+      <workItem from="1611137830153" duration="44133000" />
     </task>
     <servers />
   </component>

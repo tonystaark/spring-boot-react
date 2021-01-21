@@ -11,6 +11,7 @@ import { checkMatchedRegexOccurrence,  convertObjStringValuesToNumber} from "../
 import { IStringRecord, INumberRecord, ILoginInfo, ILoginCommonConfig, IUsernameConfig, IPasswordConfig } from "../constants/type";
 import {  requiresMinimum, loggedInUserLocalStorage  } from "../constants/index";
 import { Alert, AlertTitle } from '@material-ui/lab';
+import useMediaQuery from '@material-ui/core/useMediaQuery';
 
 const { REACT_APP_RESOURCES_IMAGE_PATH } = process.env;
 
@@ -20,7 +21,7 @@ const useStyles = makeStyles((theme) => ({
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'flex-end',
-    height:  'calc(100vh - 144px)',
+    height: 'calc(100vh - 144px)',
   },
   card: {
     boxSizing: 'border-box',
@@ -30,13 +31,13 @@ const useStyles = makeStyles((theme) => ({
     border: '1px solid #BFBFBF',
     boxShadow: '10px 10px 5px #aaaaaa',
   },
-  cardAction : {
+  cardAction: {
     marginTop: '30px',
   },
-  cardButton : {
+  cardButton: {
     backgroundColor: 'primary'
   }
-}));
+}))
 
 const SignInPage = ():JSX.Element => {
   //@ts-ignore
@@ -107,12 +108,13 @@ const SignInPage = ():JSX.Element => {
       }
     }
   };
-
+  const renderBackgroundImage = useMediaQuery('(min-width:1000px)');
+console.log('renderBackground', renderBackgroundImage)
 
   return (
     <>
         <Container className={classes.container}>
-          <img src={`${REACT_APP_RESOURCES_IMAGE_PATH}/exam.jpg`} width='600' height='auto' style={{marginRight: '100px'}}alt='Landing' />
+          {renderBackgroundImage && <img  src={`${REACT_APP_RESOURCES_IMAGE_PATH}/exam.jpg`} width='600' height='auto' style={{marginRight: '100px'}}alt='Landing' />}
 
           <Card className={classes.card}>
             <CardHeader title="Log In"/>
