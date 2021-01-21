@@ -15,8 +15,6 @@ export default function App() {
         <Switch>
           <Route exact path="/" component={SignInPage} />
           <ProtectedRoute exact path='/dashboard'  loggedIn={loggedIn} component={Dashboard} />
-          <Route exact path="/unauthorized" component={Unauthorized} />
-
         </Switch>
       </BrowserRouter>
   )

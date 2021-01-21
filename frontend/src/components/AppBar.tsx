@@ -30,14 +30,10 @@ const CustomedAppBar = (): JSX.Element => {
     const history = useHistory();
     const dispatch = useDispatch();
 
-    const [logOut] = useMutation(() => axios.post("/api/auth/logout", null,{ headers: {'Authorization': 'Bearer ' + getJWTTokenFromLocalStorage()}}), {
-        onSuccess: () => {
-            history.push('/');
-            dispatch(LogOutSuccessAction)
-        },
-    });
+    const [logOut] = useMutation(() => axios.post("/api/auth/logout", null,{ headers: {'Authorization': 'Bearer ' + getJWTTokenFromLocalStorage()}}))
     const postLogOut = async():Promise<void> => {
         await logOut();
+        dispatch(LogOutSuccessAction())
     }
     return (
         <AppBar position="static">

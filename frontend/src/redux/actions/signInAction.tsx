@@ -2,7 +2,6 @@ import { loggedInUserLocalStorage } from '../../constants/index'
 
 //@ts-ignore
 export const SignInSuccessAction = (payload) => {
-  console.log('inredux', payload)
   localStorage.setItem(loggedInUserLocalStorage ,JSON.stringify({
         username: payload.data.username,
         roles: payload.data.roles,
