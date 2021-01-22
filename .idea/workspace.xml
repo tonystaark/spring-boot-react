@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="523bec4d-40b1-41a7-be99-a30d02beb821" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/ufinity/seab/userService/controller/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/ufinity/seab/userService/controller/AuthController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backend/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/containers/SignInPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/containers/SignInPage.tsx" afterDir="false" />
-    </list>
+    <list default="true" id="523bec4d-40b1-41a7-be99-a30d02beb821" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -103,7 +96,7 @@
       <workItem from="1611110399905" duration="16929000" />
       <workItem from="1611135557323" duration="115000" />
       <workItem from="1611135720637" duration="595000" />
-      <workItem from="1611137830153" duration="50310000" />
+      <workItem from="1611137830153" duration="51153000" />
     </task>
     <servers />
   </component>
