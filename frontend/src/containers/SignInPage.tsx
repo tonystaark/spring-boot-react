@@ -109,18 +109,17 @@ const SignInPage = ():JSX.Element => {
     }
   };
   const renderBackgroundImage = useMediaQuery('(min-width:1000px)');
-console.log('renderBackground', renderBackgroundImage)
 
   return (
     <>
         <Container className={classes.container}>
-          {renderBackgroundImage && <img  src={`${REACT_APP_RESOURCES_IMAGE_PATH}/exam.jpg`} width='600' height='auto' style={{marginRight: '100px'}}alt='Landing' />}
+          {renderBackgroundImage && <img  src={`${REACT_APP_RESOURCES_IMAGE_PATH}/exam2.jpg`} width='600' height='auto' style={{marginRight: '100px'}}alt='Landing' />}
 
           <Card className={classes.card}>
             <CardHeader title="Log In"/>
             <CardContent>
               <TextField style={{marginBottom: '20px'}}fullWidth={true} id="username" name="username" label="username" onChange={setUsername}/>
-              <TextField fullWidth={true} id="password" name="password" label="password" onChange={setPassword}/>
+              <TextField fullWidth={true} id="password" name="password" label="password" type="password" onChange={setPassword}/>
               <CardActions className={classes.cardAction}>
                 <Button variant='contained' color='primary'  fullWidth={true} onClick={signIn} >Log In</Button>
               </CardActions>
